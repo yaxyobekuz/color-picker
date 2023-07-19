@@ -161,3 +161,41 @@ button:active{
 .copy-icon{
     margin-right: 4px;
 }
+
+/* footer  */
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+    border-radius: 5px 5px 0 0;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 2px;
+}
+.social-networks-list {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.footer-bottom {
+    padding:10px 20px;
+    border-radius:0 0 5px 5px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 23px;
+    text-align: center;
+}
