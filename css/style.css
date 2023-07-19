@@ -7,10 +7,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family:heebo-semibold ;
+    src: url(../text-fonts/Heebo-SemiBold.ttf);
+}
+@font-face {
+    font-family:heebo-medium ;
+    src: url(../text-fonts/Heebo-Medium.ttf);
+}
+@font-face {
+    font-family:heebo-regular ;
+    src: url(../text-fonts/Heebo-Regular.ttf);
+}
+@font-face {
+    font-family:heebo-light ;
+    src: url(../text-fonts/Heebo-Light.ttf);
+}
 
 .body {
     color: #333;
-    font-family: sans-serif;
+    font-family:heebo-regular;
+    font-weight: 400;
     background-color: transparent;
     scroll-behavior: smooth;
 }
