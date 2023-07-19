@@ -25,10 +25,12 @@
 }
 
 .body {
+    width: 100vw;
+    height: 100Vh;
+    background:#ff0000;
     color: #333;
-    font-family:heebo-regular;
+    font-family:heebo-semibold;
     font-weight: 400;
-    background-color: transparent;
     scroll-behavior: smooth;
 }
 
