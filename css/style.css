@@ -25,10 +25,14 @@
 }
 
 .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100vw;
     height: 100Vh;
     background:#ff0000;
-    color: #333;
+    color: #ffffff;
     font-family:heebo-semibold;
     font-weight: 400;
     scroll-behavior: smooth;
