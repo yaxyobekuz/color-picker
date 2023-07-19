@@ -74,3 +74,48 @@ section {
 a {
     text-decoration: none;
 }
+button:active{
+    transform: scale(0.98);
+}
+
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+.header-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.2);}
+.logo-link {
+    font-size: 24px;
+    color: #fff;
+    font-family:heebo-medium;
+}
+.donate-btn {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    font-family:heebo-medium;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+.donate-btn img {
+    width: 24px;
+    height: 25px;
+    margin-right: 6px;
+}
