@@ -273,3 +273,11 @@ button:active{
         height: 15px;
     }
 }
+@media only screen and (max-width:370px) {
+    .header-parent,.main-parent,.footer-top,.footer-bottom{
+        padding: 8px 16px;
+    }
+    .color-text{
+        margin-right: 10px;
+    }
+}
