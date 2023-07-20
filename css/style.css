@@ -226,3 +226,28 @@ button:active{
         width: 400px;
     }
 }
+@media only screen and (max-width:510px) {
+    .logo-link{
+        font-size: 18px;
+    }
+    .donate-btn{
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+    .donate-btn img{
+        width: 17px;
+        height: 18px;
+    }
+    .conatainer-b{
+        width: 100vw;
+    }
+    .main-parent{
+        width: 100%;
+    }
+    .color-input{
+        width: 100%;
+    }
+    .footer-bottom{
+        font-size: 17px;
+    }
+}
