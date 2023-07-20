@@ -281,3 +281,11 @@ button:active{
         margin-right: 10px;
     }
 }
+@media only screen and (max-width:330px) {
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-top a{
+        margin-bottom: 8px;
+    }
+}
