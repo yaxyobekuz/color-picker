@@ -140,12 +140,16 @@ button:active{
     justify-content: center;
 }
 .color-text {
+    display: flex;
+    align-items: center;
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.05);
     border-radius: 100px;
     padding: 8px 15px;
     font-size: 16px;
     margin-right: 20px;
+    font-family: heebo-medium;
+    height: 40px;
 }
 .copy-btn {
     display: flex;
@@ -156,7 +160,9 @@ button:active{
     border: none;
     padding: 8px 15px;
     font-size: 16px;
+    height: 40px;
     color: #fff;
+    font-family: heebo-medium;
 }
 .copy-icon{
     margin-right: 4px;
@@ -198,4 +204,25 @@ button:active{
     background: rgba(0, 0, 0, 0.2);
     font-size: 23px;
     text-align: center;
+}
+
+/* responsive  */
+
+@media only screen and (max-width:630px) {
+    .logo-link{
+        font-size: 21px;
+    }
+    .donate-btn{
+        font-size: 15px;
+    }
+    .donate-btn img{
+        width: 21px;
+        height: 20px;
+    }
+    .footer-bottom{
+        font-size: 20px;
+    }
+    .color-input{
+        width: 400px;
+    }
 }
