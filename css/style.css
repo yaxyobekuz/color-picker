@@ -251,3 +251,25 @@ button:active{
         font-size: 17px;
     }
 }
+@media only screen and (max-width:420px) {
+    .logo-link{
+        font-size: 17px;
+    }
+    .donate-btn{
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+    .donate-btn img{
+        width: 17px;
+        height: 18px;
+    }
+    .color-text,.copy-btn{
+        font-size: 14px;
+        height: 34px;
+        padding: 7px 13px;
+    }
+    .copy-btn img{
+        width: 15px;
+        height: 15px;
+    }
+}
