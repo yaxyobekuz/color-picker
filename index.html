@@ -1,113 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/cp-logo.png" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/cp-logo.png" type="image/x-icon" />
+
+    <!-- Title -->
     <title>Color picker</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
 
-<body class="body">
-    <!-- header  -->
+    <!-- CSS (Styles) -->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+  </head>
+
+  <body class="body">
+    <!-- Header  -->
     <header class="header">
-        <div class="container">
-            <div class="header-parent">
-                <!-- logo -->
-                <a class="logo-link" href="index.html">Color picker</a>
-                <!-- btn -->
-                <button class="donate-btn js-donate-btn">
-                    <img src="./images/wallet-icon.svg" alt="wallet icon">
-                    Donate
-                </button>
-            </div>
-        </div>
-    </header>
-    <!-- main  -->
-    <main>
-        <div class="container conatainer-b">
-            <div class="main-parent">
-                <!-- color input  -->
-                <input type="color" class="color-input">
-                <!-- copy -->
-                <div>
-                    <p class="color-text">#000000</p>
-                    <button class="copy-btn js-copy-btn">
-                        <img src="./images/copy-icon.svg" class="copy-icon" alt="copy icon">
-                        Copy</button>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <!-- top  -->
-            <div class="footer-top">
-                <a class="logo-link" href="index.html">Color picker</a>
-                <!-- social networks -->
-                <ul class="social-networks-list">
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://.com">
-                            <svg class="logo" fill="currentColor" width="24" height="24" viewBox="0 0 32 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- bottom  -->
-            <div class="footer-bottom">Created by Yaxyobek</div>
-        </div>
-    </footer>
-    <script src="./script.js"></script>
-</body>
+      <div class="container">
+        <div class="header-content-wrapper">
+          <!-- Logo -->
+          <a class="logo" href="index.html">Color picker</a>
 
-</html> 
+          <!-- Links -->
+          <div class="links">
+            <!-- Web -->
+            <a
+              class="link"
+              target="_blank"
+              title="Developer website"
+              aria-label="Developer website"
+              href="https://yaxyobekk.uz/en"
+            >
+              <img
+                width="28"
+                height="28"
+                alt="Web icon"
+                src="./src/assets/icons/web.svg"
+              />
+            </a>
+
+            <!-- Github -->
+            <a
+              class="link"
+              target="_blank"
+              title="Github repository"
+              aria-label="Github repository"
+              href="https://github.com/yaxyobekuz/color-picker"
+            >
+              <img
+                width="28"
+                height="28"
+                alt="Github icon"
+                src="./src/assets/icons/github.svg"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main  -->
+    <main class="container main">
+      <div class="main-content-wrapper">
+        <!-- Color input  -->
+        <input type="color" id="color-input" class="color-input" />
+
+        <!-- Copy -->
+        <div class="sub">
+          <p id="color-text" class="color-text">#000000</p>
+          <button id="copy-btn" class="copy-btn">
+            <img
+              width="24"
+              height="24"
+              alt="copy icon"
+              class="copy-icon"
+              src="./src/assets/icons/copy.svg"
+            />
+            <span>Copy</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content-wrapper">
+          <a class="logo" href="index.html">Color picker</a>
+          <span role="author" class="author">Created By Yaxyobek</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/scripts/index.js"></script>
+  </body>
+</html>
